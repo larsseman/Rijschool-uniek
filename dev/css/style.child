@@ -1,0 +1,12 @@
+/*
+Theme Name: slate-0.3.1_rijschool-uniek
+Theme URI: https://github.com/potato-student/Rijschool-uniek
+Description: a clean slate - rijschool-uniek child theme
+Version: 0.3.1
+Author: Lars Boesenach
+Author URI: http://www.lokaalgevonden.nl
+Tags: slate
+Template: slate-0.3.1
+*/
+
+@import url('../slate-0.3.1/style.css');
