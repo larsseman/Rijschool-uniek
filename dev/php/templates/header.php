@@ -41,6 +41,66 @@
   </head>
   <body <?php body_class(); ?> >
 
+	<div class="Top-Nav">
+		<div class="u-gridContainer">
+			
+			<div class="Logo">
+				<img src="#">
+			</div>
+			
+			<div class="Top-contact">
+				<div class="Top-tel">
+					<img src="#">
+					<span>071 - 80 80 149</span>
+				</div>
+
+				<div class="Top-mob">
+					<img src="#">				
+					<span>06 - 480 38 209</span>
+				</div>
+				
+			</div>
+		</div>
+	</div><!-- Top-nav -->
+	
+	
+	
+	
+
     <!-- Main navigation -->
-    
-    <?php include 'includes/navigation.php'; ?>
+	<div class="Nav-wrap u-gridContainer">
+
+		<div class="Nav-toggle">
+			<a class="Navigation-menuToggle" id="js-navCollapse">
+				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+					<use xlink:href="#icon-menu2"></use>
+				</svg>
+			</a>
+		</div>
+
+	    <?php include 'includes/navigation.php'; ?>
+	    
+	    <div class="Mob-contact-ico">
+			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0102234786">
+				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+					<use xlink:href="#icon-phone"></use>
+				</svg>
+			</a>
+		
+			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0622207355">
+				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+					<use xlink:href="#icon-mobile"></use>
+				</svg>
+			</a>
+		
+			<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@abt-installaties.nl">
+				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
+					<use xlink:href="#icon-envelope"></use>
+				</svg>
+			</a>
+		</div><!-- header-contact -->
+
+	</div>
+
+
+<div class="Fullbody-wrapper u-gridContainer">

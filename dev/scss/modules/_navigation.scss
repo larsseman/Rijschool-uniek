@@ -6,7 +6,7 @@
 // *************************************
 
 .Navigation {
-  text-align: center;
+ 
 }
 
 // -------------------------------------
@@ -41,22 +41,97 @@
 
 .Navigation-listItem {
   display: inline;
-  margin: 0 rem(15px);
-  &:first-of-type {
-    margin-left: 0;
-  }
-  &:last-of-type {
-    margin-right: 0;
-  }
+  margin: 0 10px;
 }
 
 // ----- Navigation link ----- //
 
-.Navigation-link {
-  text-transform: uppercase;
+
+
+
+// -------------------------------------
+// all things below
+// -------------------------------------
+
+.Top-Nav {
+	position: relative;
+	.Logo {
+		float: left;
+		background-color: $c-blue;
+		opacity: 0.2;
+	    height: 100px;
+	    width: 295px;
+	    margin: 20px 0;
+	    
+	    // -- Temp border-radius --
+	    border-radius: 20px;
+	}
+	
+	.Top-contact {
+		position: relative;
+		width: 540px;
+		float: right;
+		
+		.Top-tel {
+			position: absolute;
+			top: 50px;
+			left: 0;
+			a,span {
+				color: white;
+				font-size: 30px;
+			}
+		}
+		
+		.Top-mob {
+			position: absolute;
+			top: 50px;
+			right: 0px;
+			a,span {
+				color: white;
+				font-size: 30px;
+			}			
+		}
+		
+	}/* Top-contact */
+	
+}/* Top-nav */
+
+
+.Nav-wrap {
+	padding: 0;
+	border-radius: 20px 20px 0 0;
+	background-color: rgba(26, 96, 218, 0.2);
 }
 
-.Navigation-link--invertedBold {
-  color: $c-white; 
-  font-weight: bold;
+
+.Navigation {
+	ul.Navigation-list {
+		margin: 0;
+		
+		li.Navigation-listItem {						
+			line-height: 75px;
+			a.Navigation-link {
+				color: white;
+				font-size: 14px;
+				padding: 20px;
+				letter-spacing: 1px;
+				border-radius: 10px;
+				&:hover {
+					color: white;
+					text-decoration: none;
+					background-color: $c-blue;
+	
+					-webkit-transition:all 0.3s ease;
+					-moz-transition:all 0.3s ease;
+					-o-transition:all 0.3s ease;
+				}
+			}
+		}
+	}
 }
+
+.Nav-toggle {
+	display: none;
+}
+
+

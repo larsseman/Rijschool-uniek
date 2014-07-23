@@ -7,6 +7,7 @@
 			<?php endif; ?>
 		</div>
 	</div>
+</div><!-- Fullbody-wrapper -->
 
 
 	<div class="Socket">
