@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background  : $c-white;
+  background-image: url('../img/background_uniek.jpg');
+  background-repeat: repeat;
   color       : $c-black;
   font-family : $t-fontFamily;
   font-size   : 100%;

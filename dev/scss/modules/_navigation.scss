@@ -6,6 +6,8 @@
 // *************************************
 
 .Navigation {
+	position: relative;
+	z-index: 100;
  
 }
 
@@ -24,8 +26,9 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+	background-color: $c-transblue;
 }
+
 
 // -------------------------------------
 // Context
@@ -57,14 +60,34 @@
 	position: relative;
 	.Logo {
 		float: left;
-		background-color: $c-blue;
-		opacity: 0.2;
+		background-image: url('../img/logo.png');
+		background-size: cover;
 	    height: 100px;
-	    width: 295px;
+	    width: 270px;
 	    margin: 20px 0;
 	    
 	    // -- Temp border-radius --
 	    border-radius: 20px;
+	    
+	    &:hover {
+		    opacity: 0.7;
+		    -webkit-transition:all 0.2s ease;
+		    -moz-transition:all 0.2s ease;
+		    -o-transition:all 0.2s ease;
+	    }
+	}
+	
+	.Top-img {
+		position: relative;
+		top: 0;
+		left: 0;
+		img {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			left: -64px;
+			top: -3px;
+		}
 	}
 	
 	.Top-contact {
@@ -80,16 +103,31 @@
 				color: white;
 				font-size: 30px;
 			}
+			
+		    &:hover {
+			    opacity: 0.7;
+			    -webkit-transition:all 0.2s ease;
+			    -moz-transition:all 0.2s ease;
+			    -o-transition:all 0.2s ease;
+		    }
 		}
 		
 		.Top-mob {
 			position: absolute;
 			top: 50px;
 			right: 0px;
+			
 			a,span {
 				color: white;
 				font-size: 30px;
-			}			
+			}
+			
+		    &:hover {
+			    opacity: 0.7;
+			    -webkit-transition:all 0.2s ease;
+			    -moz-transition:all 0.2s ease;
+			    -o-transition:all 0.2s ease;
+		    }			
 		}
 		
 	}/* Top-contact */
@@ -100,7 +138,7 @@
 .Nav-wrap {
 	padding: 0;
 	border-radius: 20px 20px 0 0;
-	background-color: rgba(26, 96, 218, 0.2);
+	background-color: $c-transblue;
 }
 
 
@@ -134,4 +172,41 @@
 	display: none;
 }
 
+
+.Navigation-list.is-hidden {
+    display: none;
+}
+
+// ------ ul dropdown menu style --------
+
+.Navigation-listItem--hasDropdown {
+	position: relative;
+	text-decoration: none;
+}
+
+.Navigation-link--dropdown:focus {
+	background-color: $c-transblue;
+	text-decoration: none;
+}
+
+ul.Navigation-list--dropdown {
+	position: absolute;
+	top: 51px;
+	left: 0;
+	background-image: url('../img/background_uniek.jpg');
+	background-repeat: repeat;
+	border-radius: 0px 0px 15px 15px;
+	border-bottom: 3px solid white;
+	border-left: 3px solid white;
+	border-right: 3px solid white;
+	background-size: 320% auto;
+		
+	li.Navigation-listItem {
+		display: block;
+		position: relative;
+		a.Navigation-link {
+
+		}
+	}
+}
 

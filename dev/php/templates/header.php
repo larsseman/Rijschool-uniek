@@ -40,27 +40,54 @@
 
   </head>
   <body <?php body_class(); ?> >
+	<div class="Side-social">
+		<a href="#">
+			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg">
+		</a>
 
+		<a href="#">
+			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/twitter.svg">
+		</a>
+
+		<a href="#">
+			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/youtube.svg">
+		</a>
+		
+		<a href="#">
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/google+.svg">
+		</a>
+	</div>
+	
 	<div class="Top-Nav">
 		<div class="u-gridContainer">
-			
-			<div class="Logo">
-				<img src="#">
-			</div>
+
+			<a href="/home/">
+				<div class="Logo"></div>
+			</a>
 			
 			<div class="Top-contact">
-				<div class="Top-tel">
-					<img src="#">
-					<span>071 - 80 80 149</span>
-				</div>
+				<a href="tel:0718080149">
+					<div class="Top-tel">
+						<div class="Top-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg">
+						</div>
+						
+						<span>071 - 80 80 149</span>
+					</div>
+				</a>
 
-				<div class="Top-mob">
-					<img src="#">				
-					<span>06 - 480 38 209</span>
-				</div>
-				
-			</div>
-		</div>
+				<a href="tel:0648038209">
+					<div class="Top-mob">
+						<div class="Top-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/mobiel.svg">
+						</div>
+						
+						<span>06 - 480 38 209</span>
+					</div>
+				</a>
+			</div><!-- Top-contact -->
+			
+		</div><!-- u-grid -->
 	</div><!-- Top-nav -->
 	
 	
@@ -104,3 +131,19 @@
 
 
 <div class="Fullbody-wrapper u-gridContainer">
+
+	<div class="Header">
+		<div class="Slider-img">
+			<img src="<?php echo get_stylesheet_directory_uri();?>/img/slider_image.jpg">
+		</div>
+		
+		<div class="Slide-one-text">
+			<p>Meld je nu aan en ontvang een</p>
+			<span>gratis proefles!</span>
+		</div>
+	</div>
+	
+	<div class="Page-title">
+		<h2>Welkom bij Rijschool Leiden Uniek</h2>
+		<p>Welkom bij de rijschool van Leiden en omgeving al geruime tijd een toonaangevende rijschool in Leiden en omgeving!</p>
+	</div>
