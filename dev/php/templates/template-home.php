@@ -16,6 +16,7 @@ Template Name: Homepage
 						<div class="u-gridRow">
 							<div class="u-gridCol7">
 
+						<!-- --------------------------------------------------- -->
 								<div class="u-gridRow Home-pad-left">
 									<div class="u-gridCol4">
 										<div class="Home-three-img">
@@ -37,16 +38,18 @@ Template Name: Homepage
 											<p>Bromfietsrijles</p>
 										</div>
 									</div>
-
+						<!-- --------------------------------------------------- -->
 									<div class="u-gridCol12">
 										<div class="hr-style">
 											<hr>
 										</div>
 									</div>
-									
-									<div class="u-gridCol6 points-rows">
+						<!-- --------------------------------------------------- -->
+									<div class="u-gridCol12 points-rows">
 										<h2>Onze kracht</h2>
-
+									</div>
+						<!-- --------------------------------------------------- -->
+									<div class="u-gridCol6 points-rows">
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
 											<span>Persoonlijke aanpak</span>
@@ -54,23 +57,35 @@ Template Name: Homepage
 
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
-											<p>Persoonlijke aanpak</p>
+											<span>Kwaliteit</span>
 										</div>
 
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
-											<p>Persoonlijke aanpak</p>
+											<span>Eerlijkheid</span>
 										</div>
-
 									</div>
+
+
 									
-									
-									
+									<div class="u-gridCol6 points-rows">
+										<div class="pointRow">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
+											<span>Geduld</span>
+										</div>
+										
+										<div class="pointRow">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
+											<span>Hoog slagings-</span> <span class="margin-left-span-home">percentage</span>
+										</div>
+									</div>
+						<!-- --------------------------------------------------- -->										
 								</div><!-- u-gridRow -->
-								
+												
 							</div><!-- u-gridCol7 -->
 
 							<div class="u-gridCol5">
+								<!-- ------------------ -->
 								<div class="call-me-wrap">
 									<div class="call-me">
 										<h3>Bel mij terug</h3>
@@ -81,16 +96,28 @@ Template Name: Homepage
 											<div class="placehold-div">
 												temp-placeholder
 											</div>
-										</div>
+										</div> <!-- call-me-form -->
 
-									</div>
-								</div>
+									</div><!-- call-me -->
+								</div><!-- call-me-wrap -->
+								<!-- ------------------ -->
 							</div><!-- u-gridCol5 -->
 							
 						</div><!-- u-gridRow -->
- 					  <!-- ----------------- -->
-						<?php the_content(); ?>
-					  <!-- ----------------- -->
+						
+						
+						<div class="u-gridRow">
+							<div class="u-gridCol12">
+								<div class="hr-style">
+									<hr>
+								</div>
+							</div>				
+						</div><!-- u-gridRow -->
+								
+								
+						<div class="content-home-box">
+							<?php the_content(); ?>
+						</div>
 					</div><!-- Col8 -->
 
 					<div class="u-gridCol3">

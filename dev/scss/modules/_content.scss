@@ -40,7 +40,7 @@ body {
 }
 
 .Content-entry {
-	padding-top: 40px;
+	padding: 40px 0 30px 10px;
 }
 
 .Sidebar {
@@ -129,13 +129,38 @@ body {
 
 
 .points-rows {
+	.pointRow {
+		margin-bottom: 15px;
+	}
+	
 	h2 {
 		color: $c-bluelight;
 		font-weight: 600;
 		color: 30px;
+		margin: 10px 0 15px;
+		font-size: 25px;
+		letter-spacing: 1px;
+	}
+	
+	span {
+		text-align: left;
+		color: $c-bluedark;
+		font-weight: 500;
+		letter-spacing: 1px;
+		padding-left: 5px;
+	}
+	
+	.margin-left-span-home {
+		margin-left: 28px;
 	}
 	
 	img {
 		display: inline-block;
+		margin-bottom: -6px;
 	}
+}
+
+
+.content-home-box {
+	padding: 0 10px;
 }
