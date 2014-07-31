@@ -10,10 +10,48 @@
 }
 
 .Footer-inner {
+	padding: 20px;
+	padding-right: 0;
+	color: white;
+	a {
+		color: white;
+		font-weight: 200;
+	}
+	
+	select.menu {
+		border: 0 solid;
+		border-radius: 6px;
+		padding: 2px 15px;
+		color: $c-bluedark;
+	}
+
 }
 
-//style the widgets
-.Footer-inner .widget {
-
+#text-3 {
+	p {
+		padding-left: 20px;
+	}
 }
 
+
+
+.Socket {
+	text-align: center;
+	color: white;
+	p {
+		font-weight: 400;
+		font-size: 14px;
+	}
+
+	.LG-link {
+		color: $c-bluedark;
+		font-weight: 600;
+		span {
+			color: #FF9400;
+		}
+		&:hover {
+			text-decoration: none;
+			opacity: 0.7;
+		}
+	}
+}

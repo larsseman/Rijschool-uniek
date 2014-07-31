@@ -93,9 +93,7 @@ Template Name: Homepage
 										<p>en wij bellen terug!</p>
 
 										<div class="call-me-form">
-											<div class="placehold-div">
-												temp-placeholder
-											</div>
+											<?php the_content(); ?>
 										</div> <!-- call-me-form -->
 
 									</div><!-- call-me -->
@@ -116,7 +114,14 @@ Template Name: Homepage
 								
 								
 						<div class="content-home-box">
-							<?php the_content(); ?>
+							<p>Op zoek naar een kwalitatief hoogwaardige en betaalbare rijschool in Leiden en omgeving, dan ben je bij Rijschool Uniek aan het juiste adres.</p>
+							<p>Het is eindelijk zover je hebt de leeftijd bereikt dat je voor je rijbewijs mag gaan, iets waar je lang op hebt verheugd. Dan is het kiezen van een passende rijschool niet makkelijk.</p>
+
+							<p>Maar wij van Rijschool Uniek Leiden bieden jou een kwalitatieve en betaalbare opleiding. Wij zijn van mening dat met de juiste begeleiding en geruststelling de slagingskansen extra groot zijn, wij doen er dan ook alles aan om jouw begeleiding af te stemmen op jou eigenschappen en niveau.</p>
+
+							<p>Wij doen aan persoonlijke aanpak daarom is ieder… Uniek bij Rijschool Uniek!</p>
+
+							<p>Ben je geïnteresseerd in een van onze rij-opleidingen, of heb je vragen aarzel dan niet en neem gerust contact met ons op, Of vul het aanmeldingsformulier in en wij nemen binnen 24 uur contact met u op.</p>
 						</div>
 					</div><!-- Col8 -->
 

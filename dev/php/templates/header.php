@@ -41,19 +41,19 @@
   </head>
   <body <?php body_class(); ?> >
 	<div class="Side-social">
-		<a href="#">
+		<a target="_blank" href="https://www.facebook.com/RijschoolUniek">
 			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg">
 		</a>
 
-		<a href="#">
+		<a target="_blank" href="https://twitter.com/rijschoolluniek">
 			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/twitter.svg">
 		</a>
 
-		<a href="#">
+		<a target="_blank" href="https://www.youtube.com/channel/UCJAIKK_GUOKLKrALPtHiXoA?feature=watch">
 			<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/youtube.svg">
 		</a>
 		
-		<a href="#">
+		<a target="_blank" href="https://plus.google.com/102465697407262894190/about">
 			<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/google+.svg">
 		</a>
 	</div>
@@ -108,19 +108,19 @@
 	    <?php include 'includes/navigation.php'; ?>
 	    
 	    <div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0102234786">
+			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0718080149">
 				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 					<use xlink:href="#icon-phone"></use>
 				</svg>
 			</a>
 		
-			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0622207355">
+			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0648038209">
 				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 					<use xlink:href="#icon-mobile"></use>
 				</svg>
 			</a>
 		
-			<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@abt-installaties.nl">
+			<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@rijschool-uniek.nl">
 				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
 					<use xlink:href="#icon-envelope"></use>
 				</svg>
@@ -143,7 +143,10 @@
 		</div>
 	</div>
 	
+<?php if(is_front_page() || is_page_template('template-landingspagina.php')) { ?>
 	<div class="Page-title">
 		<h2>Welkom bij Rijschool Leiden Uniek</h2>
 		<p>Welkom bij de rijschool van Leiden en omgeving al geruime tijd een toonaangevende rijschool in Leiden en omgeving!</p>
 	</div>
+	
+<?php } ?>

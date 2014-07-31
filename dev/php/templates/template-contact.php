@@ -8,9 +8,12 @@ Template Name: Contactpage
 
 	<div>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<article class="Content Content--fullwidth u-gridContainer" id="post-<?php the_ID(); ?>">
+		<article class="Content Content--fullwidth u-gridContainer white-content" id="post-<?php the_ID(); ?>">
 			<div class="Content-entry">
-				<h2><?php the_title(); ?></h2>
+				<div class="pagetitle">
+					<h2><?php the_title(); ?></h2>
+				</div>
+	
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
