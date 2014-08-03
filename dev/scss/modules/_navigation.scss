@@ -101,7 +101,7 @@
 			left: 0;
 			a,span {
 				color: white;
-				font-size: 30px;
+				font-size: 28px;
 			}
 			
 		    &:hover {
@@ -189,24 +189,29 @@
 	text-decoration: none;
 }
 
-ul.Navigation-list--dropdown {
-	position: absolute;
-	top: 51px;
-	left: 0;
-	background-image: url('../img/background_uniek.jpg');
-	background-repeat: repeat;
-	border-radius: 0px 0px 15px 15px;
-	border-bottom: 3px solid white;
-	border-left: 3px solid white;
-	border-right: 3px solid white;
-	background-size: 320% auto;
-		
-	li.Navigation-listItem {
-		display: block;
-		position: relative;
-		a.Navigation-link {
-
+.Navigation {
+	ul.Navigation-list--dropdown {
+		position: absolute;
+		top: 55px;
+		left: 0;
+		background-color: $c-bluedark;
+		border-radius: 15px;
+		background-size: 320% auto;
+		box-shadow: 4px 4px 15px rgba(0,0,0,0.7);
+			
+		li.Navigation-listItem {
+			display: block;
+			position: relative;
+			line-height: 40px;
+			a.Navigation-link {
+			    padding: 0px 10px;
+			    display: block;
+			    margin: 10px 0;
+				
+				&:hover {
+					background-color: $c-blue;
+				}
+			}
 		}
 	}
 }
-

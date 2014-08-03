@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Page w/ sidebar on right
+Template Name: temp bromfiets rijles
 */
 ?>
 
@@ -17,6 +17,16 @@ Template Name: Page w/ sidebar on right
 							<div class="pagetitle">
 								<h2><?php the_title(); ?></h2>
 							</div>
+<!-- ------------------------------------------------ -->				
+
+<div class="ul-pakket">
+	<ul>
+		<li>5 lessen inclusief praktijkexamen         <span>€ 350,-</span></li>
+		<li>Praktijkexamen herkansing                 <span>€ 210,-</span></li>
+	</ul>
+</div>
+<!-- ------------------------------------------------ -->				
+					
 							<?php the_content(); ?>
 							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
 						</article>
