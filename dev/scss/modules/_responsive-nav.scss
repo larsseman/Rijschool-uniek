@@ -16,6 +16,11 @@
 
 
 @media all and (max-width: 1115px) {
+	.Top-contact {
+		display: none;
+	}
+
+
 	
 //  This is the wrapper for the navigation
 	.Nav-wrap {
@@ -27,28 +32,19 @@
 	.Navigation {	
 		position: relative;
 		ul.Navigation-list {
-			margin-top: 60px;
 			position: absolute;
 			li.Navigation-listItem {
 				display: block;
 				line-height: 30px;
 				border-left: 0 solid;
-				
+				text-align: center;
+
+				&:first-of-type {
+					margin-top: 75px;
+				}
+
 				&:last-of-type {
 					margin-bottom: 15px;
-				}
-				
-				&:hover {
-					background-color: $c-blue;
-	
-					-webkit-transition:all 0.2s ease;
-					-moz-transition:all 0.2s ease;
-					-o-transition:all 0.2s ease;
-					a.Navigation-link {
-						color: $c-blue;
-						text-decoration: none;
-	
-					}
 				}
 				
 				a.Navigation-link {
@@ -56,10 +52,21 @@
 					display: block;
 					font-size: 14px;
 					padding: 5px;
-					margin: 0;
+					margin: 10px 0 ;
 					font-weight: 600;
 					letter-spacing: 1.5px;
-				
+					background-color: $c-transblue;								
+					
+				}
+								
+				a.Navigation-link:hover {
+					color: white;
+					text-decoration: none;
+					background-color: $c-bluelight;
+					-webkit-transition:all 0.2s ease;
+					-moz-transition:all 0.2s ease;
+					-o-transition:all 0.2s ease;
+
 				}
 			}
 		}
@@ -80,27 +87,36 @@
 			background-color: transparent;
 			&:hover {
 				opacity: 0.7;
+				-webkit-transition:all 0.2s ease;
+				-moz-transition:all 0.2s ease;
+				-o-transition:all 0.2s ease;
+				
+			}
+			
+			img {
+//				border: 2px solid $c-bluelight;
+//				border-radius: 10px;
 			}
 		}
 				
 		.tel2svg {
 			left: 10px;				
-			.Icon--inline {
-				margin: -5px;
+			img {
+				padding: 1px;
 			}
 		}
 
 		.telsvg {
-			left: 65px;				
-			.Icon--inline {
-				margin: -4px;
+			left: 65px;		
+			img {
+				padding: 2px;
 			}
 		}
 		
 		.mailsvg {
-			left: 120px;				
-			.Icon--inline {
-				margin: -6px;
+			left: 120px;
+			img {
+				padding: 0;
 			}
 		}
 	}

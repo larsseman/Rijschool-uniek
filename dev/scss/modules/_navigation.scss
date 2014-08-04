@@ -204,13 +204,17 @@
 			display: block;
 			position: relative;
 			line-height: 40px;
+				&:first-of-type {
+					margin-top: 0 !important;
+				}
 			a.Navigation-link {
 			    padding: 0px 10px;
 			    display: block;
 			    margin: 10px 0;
 				
 				&:hover {
-					background-color: $c-blue;
+					background-color: $c-bluelight;
+					color: white;
 				}
 			}
 		}
@@ -235,33 +239,51 @@
 
 
 
-@media all and (max-width: 1000px) {
-	.Top-contact {
-		display: none;
-	}
+@media all and (max-width: 1115px) {
 
-	.Top-contact.two {
-		display: block;
-		width: 60px;
-		.Top-tel,.Top-mob {
-			width: 100%;
+.Navigation {
+	ul.Navigation-list--dropdown {
+		position: inherit !important;
+		background-color: rgba(0,0,0,0.2);
+		box-shadow: 0 0 0 #000;
+		top: 0;
+		padding: 1px 1px;
+
+		&:hover {
+			a {
+				background-color: $c-transblue;
+			}
 		}
-
-		.Top-tel {
-			left: -70px;
-		}		
-		.Top-img img {
-			left: 0px;
+			
+		li.Navigation-listItem {
+			display: block;
+			position: relative;
+			line-height: 40px;
+				&:first-of-type {
+					margin-top: 0 !important;
+				}
+			a.Navigation-link {
+			    padding: 0px 10px;
+			    display: block;
+			    margin: 10px 0;
+				
+				&:hover {
+					background-color: $c-bluelight;
+					color: white;
+				}
+			}
 		}
 	}
+}
 
-} //--- @media - 1000px ---
+} //--- @media - 1115px ---
 
 
 
-@media all and (max-width: 490px) {
-	.Top-contact.two {
-		display: none;
+@media all and (max-width: 400px) {
+	.Top-Nav .Logo {
+		height: 80px;
+		width: 225px;
 	}
 
 }//--- @media - 490px ---
