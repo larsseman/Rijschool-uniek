@@ -15,12 +15,12 @@
 //======================================================
 
 
-@media all and (max-width: 1040px) {
+@media all and (max-width: 1115px) {
 	
 //  This is the wrapper for the navigation
 	.Nav-wrap {
 		height: auto;
-		min-height: 60px; // <-- adjust to height of div
+		min-height: 76px; // <-- adjust to height of div
 	}
 	
 //  Adjust the sizes and colors for erverything to your choice
@@ -71,42 +71,34 @@
 		z-index: 5000;
 				
 		a { 
-			border: 2px solid white;
 			position: absolute;
 			display: block;
-			width: 35px;
-			height: 35px;
+			width: 55px;
+			height: 55px;
 			border-radius: 7px;
-			top: 8px;
+			top: 6px;
 			background-color: transparent;
 			&:hover {
-				background-color: rgba(255,255,255,0.2);
-			}
-
-			.Icon--inline {
-				fill: white;
-				width: 2em;
-				height: 2em;
-				padding-bottom: 1em;				
+				opacity: 0.7;
 			}
 		}
-		
-		.telsvg {
-			left: 10px;				
-			.Icon--inline {
-				margin: -4px;
-			}
-		}
-		
+				
 		.tel2svg {
-			left: 55px;				
+			left: 10px;				
 			.Icon--inline {
 				margin: -5px;
 			}
 		}
 
+		.telsvg {
+			left: 65px;				
+			.Icon--inline {
+				margin: -4px;
+			}
+		}
+		
 		.mailsvg {
-			left: 100px;				
+			left: 120px;				
 			.Icon--inline {
 				margin: -6px;
 			}

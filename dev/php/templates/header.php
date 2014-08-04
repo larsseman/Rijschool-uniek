@@ -89,6 +89,25 @@
 					</div>
 				</a>
 			</div><!-- Top-contact -->
+
+
+			<div class="Top-contact two">
+				<a href="tel:0718080149">
+					<div class="Top-tel">
+						<div class="Top-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg">
+						</div>
+					</div>
+				</a>
+
+				<a href="tel:0648038209">
+					<div class="Top-mob">
+						<div class="Top-img">
+							<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/mobiel.svg">
+						</div>
+					</div>
+				</a>
+			</div><!-- Top-contact -->
 			
 		</div><!-- u-grid -->
 	</div><!-- Top-nav -->
@@ -102,33 +121,26 @@
 
 		<div class="Nav-toggle">
 			<a class="Navigation-menuToggle" id="js-navCollapse">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-menu2"></use>
-				</svg>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Nav-toggle-icon.png">
 			</a>
 		</div>
 
 	    <?php include 'includes/navigation.php'; ?>
 	    
-	    <div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0718080149">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-phone"></use>
-				</svg>
-			</a>
-		
+		<div class="Mob-contact-ico">
 			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0648038209">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-mobile"></use>
-				</svg>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg">
 			</a>
-		
+
+			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0718080149">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/mobiel.svg">
+			</a>
+				
 			<a class="Button Button--transparent u-textInverted u-noLine mailsvg" href="mailto:info@rijschool-uniek.nl">
-				<svg class="Icon Icon--inline" viewBox="0 0 128 128">
-					<use xlink:href="#icon-envelope"></use>
-				</svg>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail.png">
 			</a>
-		</div><!-- header-contact -->
+		</div><!-- header-contact-->
+
 
 	</div>
 

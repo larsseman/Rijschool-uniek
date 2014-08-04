@@ -83,10 +83,10 @@
 		left: 0;
 		img {
 			position: absolute;
-			width: 50px;
-			height: 50px;
-			left: -64px;
-			top: -3px;
+			width: 58px;
+			height: 58px;
+			left: -65px;
+			top: -10px;
 		}
 	}
 	
@@ -139,6 +139,7 @@
 	padding: 0;
 	border-radius: 20px 20px 0 0;
 	background-color: $c-transblue;
+	position: relative;
 }
 
 
@@ -215,3 +216,52 @@
 		}
 	}
 }
+
+
+.Top-contact.two {
+	display: none;
+}
+
+
+//=====================================================
+//         @media Querries - Responsiveness
+//=====================================================
+
+@media all and (max-width: 1275px) {
+	.Side-social {
+		display: none;
+	}	
+} //--- @media - 1275px ---
+
+
+
+@media all and (max-width: 1000px) {
+	.Top-contact {
+		display: none;
+	}
+
+	.Top-contact.two {
+		display: block;
+		width: 60px;
+		.Top-tel,.Top-mob {
+			width: 100%;
+		}
+
+		.Top-tel {
+			left: -70px;
+		}		
+		.Top-img img {
+			left: 0px;
+		}
+	}
+
+} //--- @media - 1000px ---
+
+
+
+@media all and (max-width: 490px) {
+	.Top-contact.two {
+		display: none;
+	}
+
+}//--- @media - 490px ---

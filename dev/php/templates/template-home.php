@@ -12,7 +12,7 @@ Template Name: Homepage
 			<div class="Content-entry">
 				<div class="u-gridRow">
 
-					<div class="u-gridCol9">
+					<div class="u-gridCol9 Coll-Full-mob">
 						<div class="u-gridRow">
 							<div class="u-gridCol7">
 
