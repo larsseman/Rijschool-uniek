@@ -128,11 +128,11 @@
 	    <?php include 'includes/navigation.php'; ?>
 	    
 		<div class="Mob-contact-ico">
-			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0648038209">
+			<a class="Button Button--transparent u-textInverted u-noLine tel2svg" href="tel:0718080149"> 
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/telefoon.svg">
 			</a>
 
-			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0718080149">
+			<a class="Button Button--transparent u-textInverted u-noLine telsvg" href="tel:0648038209">
 				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/mobiel.svg">
 			</a>
 				
@@ -155,6 +155,12 @@
 		<div class="Slide-one-text">
 			<p>Meld je nu aan en ontvang een</p>
 			<span>gratis proefles!</span>
+		</div>
+
+		<div class="Slide-two-text">
+			<a href="/aanmelden/">
+				<p>Meld je nu aan en ontvang een <span>gratis proefles!</span></p>
+			</a>
 		</div>
 	</div>
 	

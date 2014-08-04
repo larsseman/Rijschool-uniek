@@ -399,6 +399,59 @@ select.menu {
 	margin-top: 15px;
 }
 
+.Slide-two-text {
+	display: none;
+	background-color: $c-blue;
+	&:hover {
+		background-color: $c-bluedark;
+		p, span, a {
+			text-decoration: none;
+			-webkit-transition:all 0.2s ease;
+			-moz-transition:all 0.2s ease;
+			-o-transition:all 0.2s ease;
+			
+		}
+	}
+
+	p, span {
+		color: white;
+		text-align: center;
+		font-size: 25px;
+		margin: -7px 0 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		@media all and (max-width: 720px) {
+			font-size: 16px;
+		}
+	}
+	
+	span {
+		font-weight: 700;
+	}
+}
+
+@media all and (max-width: 1115px) {
+	.Header {
+		height: auto !important;
+		.Slide-one-text {
+			display: none;
+		}
+		.Slide-two-text {
+			display: block;
+		}
+	}
+	
+	
+	.Page-title {
+		h2 {
+			font-size: 35px !important;
+		}
+		p {
+			font-size: 14px !important;
+		}
+	}
+}
+
 @media all and (max-width: 1000px) {
 
 	.page-id-3 {
@@ -421,3 +474,5 @@ select.menu {
 		@include span-columns(12);
 	}
 }
+
+
