@@ -17,7 +17,7 @@ Template Name: Contactpage
 				<div class="Content-text">
 
 					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
+						<div class="adress u-gridCol4 Coll-8">
 							<div class="adress-info">
 								<p>rijschool-uniek</p>
 								<p>Cornelis schuytlaan 186</p>
@@ -27,7 +27,7 @@ Template Name: Contactpage
 							</div>
 	
 						</div>					
-						<div class="adress-map u-gridCol8">
+						<div class="adress-map u-gridCol8 Coll-8">
 							<div id="map_canvas"></div>
 						</div>
 

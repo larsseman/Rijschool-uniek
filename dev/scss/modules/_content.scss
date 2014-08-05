@@ -365,6 +365,7 @@ input.gform_button {
 		border: 1px solid $c-bluedark;
 		font-size: 14px !important;
 		
+		
 		&:hover, &:focus {
 			background-color: rgba(26, 96, 218, 0.05);
 		}
@@ -376,7 +377,6 @@ input.gform_button {
 }
 
 .gform_wrapper .top_label input.medium {
-	width: 100%;
 	padding-left: 5px;
 }
 
@@ -496,6 +496,21 @@ select.menu {
 	.u-gridContainer.white-content {
 		padding-left: 5px;
 		padding-right: 15px;
+	}
+	
+	.gform_wrapper .top_label input.medium {
+		width: 100% !important;
+	}
+	
+	label.gfield_label {
+		font-size: 14px;
+	}
+	
+	.pagetitle h2{
+		font-size: 22px;
+	}
+	body p {
+		font-size: 14px;
 	}
 	.Home-three-img {
 		img {
