@@ -1,11 +1,17 @@
 .Footer {
+	position: relative;
 }
 
 // RESPONSIVE FOOTER
+
 .Footer-inner .widget {
 	@include span-columns(4);
+	margin-right: 1.5%;
 	@media screen and(max-width: 980px){
 		@include span-columns(12);
+		text-align: center;
+		padding-bottom: 25px;
+		border-bottom: 2px solid white;
 	}
 }
 
@@ -30,9 +36,56 @@
 #text-3 {
 	p {
 		padding-left: 20px;
+		@media screen and(max-width: 980px){
+			padding-left: 0px;
+		}
 	}
 }
 
+#text-5 {
+	display: none;
+	border-bottom: 0px solid;
+}
+
+//----------------------
+
+/*
+.Footer-social {
+	display: none;
+	position: relative;
+	right: center;
+	bottom: 20px;
+	height: auto;
+	width: 260px;
+	a:hover {
+		opacity: 0.7;
+		-webkit-transition:all 0.2s ease;
+		-moz-transition:all 0.2s ease;
+		-o-transition:all 0.2s ease;
+	}
+	img {
+		margin-right: 10px;
+	}
+}
+*/
+.Footer-social {
+	display: none;
+	height: auto;
+	width: 260px;
+	margin: 50px auto 0;
+	a:hover {
+		opacity: 0.7;
+		-webkit-transition:all 0.2s ease;
+		-moz-transition:all 0.2s ease;
+		-o-transition:all 0.2s ease;
+	}
+	img {
+		margin-right: 10px;
+	}
+}
+
+
+//---------------------------
 
 
 .Socket {
@@ -52,6 +105,35 @@
 		&:hover {
 			text-decoration: none;
 			opacity: 0.7;
+		}
+	}
+}
+
+@media all and (max-width: 980px) {
+	.Footer-inner {
+		padding-left: 0px;
+	}
+	
+	.Footer-social {
+		display: block;
+	}
+	
+	#text-5 {
+		display: block;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.footer-logo img {
+		max-width: 200px;
+	}
+	
+	.textwidget {
+		h4 {
+			margin-bottom: 20px;
+		}
+		p {
+			line-height: 20px;
 		}
 	}
 }

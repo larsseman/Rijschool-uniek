@@ -24,21 +24,27 @@ Template Name: temp video page
 	<div class="video-title">
 		<p>Intro</p>
 	</div>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/7kMMhdQvzeY" frameborder="0" allowfullscreen></iframe>
+	<div class="fitvid">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/7kMMhdQvzeY" frameborder="0" allowfullscreen></iframe>
+	</div>
 </div>
 
 <div class="video-wrapper">
 	<div class="video-title">
 		<p>Praktijk Examen</p>
 	</div>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/A6GRqEI8TwM" frameborder="0" allowfullscreen></iframe>
+	<div class="fitvid">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/A6GRqEI8TwM" frameborder="0" allowfullscreen></iframe>
+	</div>
 </div>
 
 <div class="video-wrapper">
 	<div class="video-title">
 		<p>Theorie Examen</p>
 	</div>
-	<iframe width="560" height="315" src="//www.youtube.com/embed/0IylUl0dQ30" frameborder="0" allowfullscreen></iframe>
+	<div class="fitvid">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/0IylUl0dQ30" frameborder="0" allowfullscreen></iframe>
+	</div>
 </div>
 <!-- -------------------------------------------------------- -->
 							<?php the_content(); ?>

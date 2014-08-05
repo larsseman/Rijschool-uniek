@@ -14,28 +14,34 @@ Template Name: Homepage
 
 					<div class="u-gridCol9 Coll-Full-mob">
 						<div class="u-gridRow">
-							<div class="u-gridCol7">
+							<div class="u-gridCol7 home-full-mid">
 
 						<!-- --------------------------------------------------- -->
 								<div class="u-gridRow Home-pad-left">
 									<div class="u-gridCol4">
 										<div class="Home-three-img">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/auto.svg">
-											<p>Autorijles</p>
+											<a href="/autorijlessen/">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/auto.svg">
+												<p>Autorijles</p>
+											</a>
 										</div>
 									</div>
 
 									<div class="u-gridCol4">
 										<div class="Home-three-img">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/motor.svg">
-											<p>Motorrijles</p>
+											<a href="/motorrijlessen/">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/motor.svg">
+												<p>Motorrijles</p>
+											</a>
 										</div>
 									</div>
 
 									<div class="u-gridCol4">
 										<div class="Home-three-img">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/bromfiets.svg">
-											<p>Bromfietsrijles</p>
+											<a href="/bromfietsrijlessen/">
+												<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/bromfiets.svg">
+												<p>Bromfietsrijles</p>
+											</a>
 										</div>
 									</div>
 						<!-- --------------------------------------------------- -->
@@ -84,7 +90,7 @@ Template Name: Homepage
 												
 							</div><!-- u-gridCol7 -->
 
-							<div class="u-gridCol5">
+							<div class="u-gridCol5 home-full-mid">
 								<!-- ------------------ -->
 								<div class="call-me-wrap">
 									<div class="call-me">

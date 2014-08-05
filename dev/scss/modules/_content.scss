@@ -39,6 +39,7 @@ body {
 		margin-bottom: 7px;
 	}	
 }
+
 .page-id-3 {
 	.Content-entry {
 		padding: 30px 0 30px 10px;
@@ -168,7 +169,14 @@ body {
 	}
 	//----------------------------------------
 }
-
+.Home-three-img a:hover {
+	opacity: 0.7;
+	text-decoration: none;
+	-webkit-transition:all 0.2s ease;
+	-moz-transition:all 0.2s ease;
+	-o-transition:all 0.2s ease;
+	
+}
 .Home-three-img p {
 	color: $c-bluedark;
 }
@@ -443,6 +451,8 @@ select.menu {
 	
 	
 	.Page-title {
+		padding-left: 15px;
+		padding-right: 15px;
 		h2 {
 			font-size: 35px !important;
 		}
@@ -472,7 +482,34 @@ select.menu {
 	}
 	.Coll-8 {
 		@include span-columns(12);
+	}	
+}
+
+@media all and (max-width: 700px) {
+	.home-full-mid {
+		@include span-columns(12);
 	}
 }
 
 
+@media all and (max-width: 450px) {
+	.u-gridContainer.white-content {
+		padding-left: 5px;
+		padding-right: 15px;
+	}
+	.Home-three-img {
+		img {
+			padding: 0 10px;
+		}
+		p {
+			font-size: 10px;
+		}
+	}
+	
+	.points-rows {
+		@include span-columns(12);
+		h2 {
+			text-align: center;
+		}
+	}
+}

@@ -1,4 +1,24 @@
 	<div class="Footer">
+<!--
+		<div class="Footer-social">
+			<a target="_blank" href="https://www.facebook.com/RijschoolUniek">
+				<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/facebook.svg">
+			</a>
+	
+			<a target="_blank" href="https://twitter.com/rijschoolluniek">
+				<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/twitter.svg">
+			</a>
+	
+			<a target="_blank" href="https://www.youtube.com/channel/UCJAIKK_GUOKLKrALPtHiXoA?feature=watch">
+				<img class="pad-bot-social" src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/youtube.svg">
+			</a>
+			
+			<a target="_blank" href="https://plus.google.com/102465697407262894190/about">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/google+.svg">
+			</a>
+		</div>
+-->
+
 		<div class="u-gridContainer">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
