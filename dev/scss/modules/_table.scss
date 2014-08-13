@@ -43,3 +43,128 @@
 .Table-heading {
   padding-bottom: $l-whiteSpace;
 }
+
+
+
+
+//============== table styles ==============
+
+
+
+.table-wrap {
+	background-color: $c-bluedark;
+	border-radius: 15px;
+	padding: 2px 20px;
+	height: 100%;
+	margin: 40px 0;
+	
+	h6 {
+		margin: 0;
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 18px;
+		line-height: 35px;
+	}
+}
+
+.table-row {
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+
+
+.row-left {
+	text-align: left;
+	padding: 10px 15px;
+}
+
+.row-right {
+	text-align: right;
+	padding: 5px 15px;
+
+	p {
+		font-size: 20px;
+		font-weight: 600;
+		color: $c-bluedark;
+		border-left: 3px solid $c-bluedark;
+		line-height: 50px;
+	}
+}
+
+.extra-row .row-right {
+	p {
+		line-height: 75px;		
+	}
+}
+
+.extra-row3 .row-right {
+	P {
+		line-height: 100px;
+	}
+}
+
+.pakket {
+	margin-left: 20px;
+}
+
+
+@media all and (max-width: 750px) {
+	.u-gridContainer.white-content {
+		padding-left: 0;
+		padding-right: 25px;
+	}
+
+	.table-wrap {
+		.u-gridCol9, .u-gridCol3 {
+			@include span-columns(12);
+		}
+
+		.row-right {
+			text-align: center;
+		
+			p {
+				border-left: 0px solid;
+				border-top: 3px solid $c-bluedark;
+				line-height: 50px;
+				margin: 0;
+			}
+		}
+	}
+	
+	.pakket {
+		margin-left: 0;
+		.u-gridCol8, .u-gridCol4 {
+			@include span-columns(12);
+		}
+		.u-gridRow {
+			text-align: center;
+			border-bottom: 2px solid $c-bluedark;
+		}
+		.u-gridRow.no {
+			text-align: center;
+			border-bottom: 0px solid $c-bluedark;
+		}
+	}
+}
+/*
+
+
+.ul-pakket {
+	ul {
+		padding-left: 20px;
+		li {
+			font-size: 15px;
+			line-height: 45px;
+			font-weight: 600;
+			letter-spacing: 1px;
+			color: #222;
+			span {
+				margin-left: 30px;
+				color: $c-bluedark;
+			}
+		}
+	}
+}
+*/

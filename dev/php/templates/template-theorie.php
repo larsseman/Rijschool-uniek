@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: temp motor rijles
+Template Name: temp theorie
 */
 ?>
 
@@ -18,84 +18,54 @@ Template Name: temp motor rijles
 								<h2><?php the_title(); ?></h2>
 							</div>
 <!-- ------------------------------------------------ -->				
-<p>Rijschool Uniek biedt verschillende soorten betalingsmogelijkheden aan, zodat de betaling van je rij-opleiding nooit een probleem hoeft te zijn. Betaal je rij-opleiding in termijnen of in één keer per bank of contant bij de rij-instructeur.</p>
-
+<p>Voordat u het praktijkexamen mag doen moet u eerst het theoriecertificaat behalen. Het theorie examen word afgelegd bij het CBR.</p>
+<p>De norm om te slagen is: minimaal 13 van de 25 vragen goed over gevaarherkenning en 35 van de 40 vragen goed over verkeersregels en verkeersinzicht.</p>
 
 <div class="table-wrap">
 	<div class="table-row u-gridRow">
 		<div class="row-left u-gridCol9">
-			<h6>Losse les:</h6>
-			<p>(Een losse les heeft een duur van 60 minuten)</p>
+			<h6>Theorie examen (klassikaal)</h6>
+			<p>(Vind plaats bij het CBR)</p>
 		</div>
 			
 		<div class="row-right u-gridCol3">
-			<p>€ 37,-</p>
+			<p>€ 40,-</p>
 		</div>
 	</div>
 
 	<div class="table-row u-gridRow">
 		<div class="row-left u-gridCol9">
-			<p>Voertuigbeheersing (AVB) praktijkexamen</p>
+			<h6>Theorie examen (individueel)</h6>
+			<p>(Vind plaats bij het CBR)</p>
 		</div>
 			
 		<div class="row-right u-gridCol3">
-			<p>€ 120,-</p>
+			<p>€ 80,-</p>
 		</div>
 	</div>
 
 	<div class="table-row u-gridRow">
 		<div class="row-left u-gridCol9">
-			<p>Verkeersdeelneming (AVD) praktijkexamen</p>
+			<h6>Theorie boek personenauto B:</h6>
 		</div>
 			
 		<div class="row-right u-gridCol3">
-			<p>€ 230,-</p>
+			<p>€ 35,-</p>
+		</div>
+	</div>
+
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
+			<h6>Theorie boek personenauto B:</h6>
+			<p>(Inclusief CD-rom)</p>
+		</div>
+			
+		<div class="row-right u-gridCol3">
+			<p>€ 50,-</p>
 		</div>
 	</div>
 </div>
 
-
-<div class="pakket">
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
-			<p>Pakket 1: 10 lessen inclusief (AVB) en (AVD) Examen</p>
-		</div>
-		
-		<div class="u-gridCol4">
-			<p>€ 710,-</p>
-		</div>
-	</div>
-
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
-			<p>Pakket 2: 20 lessen inclusief (AVB) en (AVD) Examen</p>
-		</div>
-		
-		<div class="u-gridCol4">
-			<p>€ 879,-</p>
-		</div>
-	</div>
-
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
-			<p>Pakket 3: 25 lessen inclusief (AVB) en (AVD) Examen</p>
-		</div>
-		
-		<div class="u-gridCol4">
-			<p>€ 1225,-</p>
-		</div>
-	</div>
-
-	<div class="u-gridRow no">
-		<div class="u-gridCol8">
-			<p>Pakket 4: 30 lessen inclusief (AVB) en (AVD) Examen</p>
-		</div>
-		
-		<div class="u-gridCol4">
-			<p>€ 1390,-</p>
-		</div>
-	</div>
-</div>
 
 <!-- ------------------------------------------------ -->				
 					

@@ -18,13 +18,28 @@ Template Name: temp bromfiets rijles
 								<h2><?php the_title(); ?></h2>
 							</div>
 <!-- ------------------------------------------------ -->				
+<div class="pakket">
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>5 lessen inclusief praktijkexamen</p>
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 350,-</p>
+		</div>
+	</div>
 
-<div class="ul-pakket">
-	<ul>
-		<li>5 lessen inclusief praktijkexamen         <span>€ 350,-</span></li>
-		<li>Praktijkexamen herkansing                 <span>€ 210,-</span></li>
-	</ul>
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>Praktijkexamen herkansing</p>
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 210,-</p>
+		</div>
+	</div>
 </div>
+
 <!-- ------------------------------------------------ -->				
 					
 							<?php the_content(); ?>

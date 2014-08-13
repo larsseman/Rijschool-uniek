@@ -21,71 +21,116 @@ Template Name: temp auto rijles
 
 <p>Rijschool Uniek biedt verschillende soorten betalingsmogelijkheden aan, zodat de betaling van je rij-opleiding nooit een probleem hoeft te zijn. Betaal je rij-opleiding in termijnen of in één keer per bank of contant bij de rij-instructeur.</p>
 
+
 <div class="table-wrap">
-	<div class="table-row">
-		<div class="row-left">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<h6>Losse les:</h6>                
 			<p>(Een losse les heeft een duur van 60 minuten)</p>
 		</div>
 			
-		<div class="row-right">
+		<div class="row-right u-gridCol3">
 			<p>€ 35,-</p>
 		</div>
 	</div>
 
-	<div class="table-row extra-row">
-		<div class="row-left">
+	<div class="table-row extra-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<h6>Praktijk Examen B (CBR):</h6>
 			<p>(Inclusief verhuur van auto tijdens praktijkexamen en eigen gezeondheidsverklaring)(EV)</p>
 		</div>
 		
-		<div class="row-right">
+		<div class="row-right u-gridCol3">
 			<p>€ 230,-</p>
 		</div>
 	</div>
 
-	<div class="table-row">
-		<div class="row-left">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<h6>Herkansing Praktijk Examen B (CBR):</h6>
 			<p>(Inclusief verhuur van auto tijdens praktijkexamen)</p>
 		</div>
 
-		<div class="row-right">
+		<div class="row-right u-gridCol3">
 			<p>€ 220,-</p>
 		</div>
 	</div>
 
-	<div class="table-row extra-row3">
-		<div class="row-left">
+	<div class="table-row extra-row3 u-gridRow">
+		<div class="row-left u-gridCol9">
 			<h6>Praktijk Examen B (BNOR):</h6>
 			<p>(Inclusief verhuur van auto tijdens examen, deze examen vindt plaats bij het Bureau Nader Onderzoek Rijvaardigheid, dit is nodig na de 4e keer herkansing bij het CBR)</p>
 		</div>
 		
-		<div class="row-right">
+		<div class="row-right u-gridCol3">
 			<p>€ 240,-</p>
 		</div>
 	</div>
 	
-	<div class="table-row extra-row3">
-		<div class="row-left">
+	<div class="table-row extra-row3 u-gridRow">
+		<div class="row-left u-gridCol9">
 			<h6>Tussentijdse Toets:</h6>
 			<p>(De toets is een rijtest die verloopt als een echte praktijkexamen. het is een goede gelegenheid om alvast te wennen aan het praktijk examen)</p>
 		</div>
 	
-		<div class="row-right">
+		<div class="row-right u-gridCol3">
 			<p>€ 150,-</p>
 		</div>
 	</div>
-</div>
+</div><!-- Table-wrap -->
 
-<div class="ul-pakket">
-	<ul>
-		<li>Pakket 1: 10 lessen inclusief Praktijk Examen          <span>€ 549,-</span></li>
-		<li>Pakket 2: 20 lessen inclusief Praktijk Examen          <span>€ 879,-</span></li>
-		<li>Pakket 3: 30 lessen inclusief Praktijk Examen          <span>€ 1220,-</span></li>
-		<li>Pakket 4: 35 lessen inclusief Praktijk Examen          <span>€ 1380,-</span></li>
-		<li>Pakket 5: 40 lessen inclusief Praktijk Examen          <span>€ 1550,-</span></li>
-	</ul>
+
+
+<div class="pakket">
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>Pakket 1: 10 lessen inclusief Praktijk Examen</p>          
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 549,-</p>
+		</div>
+	</div>
+	
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>Pakket 2: 20 lessen inclusief Praktijk Examen</p>          
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 879,-</p>
+		</div>
+	</div>
+
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>Pakket 3: 30 lessen inclusief Praktijk Examen</p>          
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 1220,-</p>
+		</div>
+	</div>
+
+	<div class="u-gridRow">
+		<div class="u-gridCol8">
+			<p>Pakket 4: 35 lessen inclusief Praktijk Examen</p>          
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 1380,-</p>
+		</div>
+	</div>
+
+	<div class="u-gridRow no">
+		<div class="u-gridCol8">
+			<p>Pakket 5: 40 lessen inclusief Praktijk Examen</p>          
+		</div>
+		
+		<div class="u-gridCol4">
+			<p>€ 1550,-</p>			
+		</div>
+	</div>
 </div>
 <!-- ------------------------------------------------ -->				
 					

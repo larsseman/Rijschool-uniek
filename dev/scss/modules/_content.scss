@@ -246,89 +246,10 @@ body {
 	color: $c-bluelight;
 }
 
-//============== table styles ==============
-
-.table-wrap {
-	background-color: $c-bluedark;
-	border-radius: 15px;
-	padding: 5px 15px 15px;
-	height: 100%;
-	margin: 40px 0;
-	
-	h6 {
-		margin: 0;
-		font-size: 18px;
-	}
-	h3 {
-		font-size: 18px;
-		line-height: 35px;
-	}
-}
-
-.table-row {
-	background-color: white;
-	border-radius: 10px;
-	height: 90px;
-	margin: 10px 0;
-}
-
-.table-row.extra-row {
-	height: 120px;
-	.row-right p {
-		line-height: 75px;
-	}
-}
-
-.table-row.extra-row3 {
-	height: 165px;
-	.row-right p {
-		line-height: 95px;
-	}
-}
 
 
-.row-left {
-	text-align: left;
-	display: block;
-	padding: 10px 15px;
-	float: left;
-	width: 75%;
 
-}
 
-.row-right {
-	text-align: right;
-	display: block;
-	padding: 5px 15px;
-	float: left;
-	width: 20%;
-	height: 100%;
-
-	p {
-		font-size: 20px;
-		font-weight: 600;
-		color: $c-bluedark;
-		border-left: 3px solid $c-bluedark;
-		line-height: 45px;
-	}
-}
-
-.ul-pakket {
-	ul {
-		padding-left: 20px;
-		li {
-			font-size: 15px;
-			line-height: 45px;
-			font-weight: 600;
-			letter-spacing: 1px;
-			color: #222;
-			span {
-				margin-left: 30px;
-				color: $c-bluedark;
-			}
-		}
-	}
-}
 
 // Contact form style
 
