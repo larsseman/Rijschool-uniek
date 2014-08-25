@@ -55,43 +55,43 @@ Template Name: temp motor rijles
 </div>
 
 
-<div class="pakket">
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+<div class="pakket table-wrap">
+	<div class="u-gridRow table-row">
+		<div class="u-gridCol9 row-left">
 			<p>Pakket 1: 10 lessen inclusief (AVB) en (AVD) Examen</p>
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="u-gridCol3 row-right">
 			<p>€ 710,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+	<div class="u-gridRow table-row">
+		<div class="u-gridCol9 row-left">
 			<p>Pakket 2: 20 lessen inclusief (AVB) en (AVD) Examen</p>
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="u-gridCol3 row-right">
 			<p>€ 879,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+	<div class="u-gridRow table-row">
+		<div class="u-gridCol9 row-left">
 			<p>Pakket 3: 25 lessen inclusief (AVB) en (AVD) Examen</p>
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="u-gridCol3 row-right">
 			<p>€ 1225,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow no">
-		<div class="u-gridCol8">
+	<div class="u-gridRow no table-row">
+		<div class="u-gridCol9 row-left">
 			<p>Pakket 4: 30 lessen inclusief (AVB) en (AVD) Examen</p>
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="u-gridCol3 row-right">
 			<p>€ 1390,-</p>
 		</div>
 	</div>

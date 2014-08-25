@@ -4,6 +4,9 @@
 <!--[if IE 8]> <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
   <head prefix="og: http://ogp.me/ns/website#"><!-- Prefix is used to declare facebook opengraph namespace for websites -->
+	<!-- Font -->
+	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+
     <!-- Charset -->
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 
@@ -23,8 +26,6 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico">
     <link rel="apple-touch-icon-precomposed" href="<?php echo get_stylesheet_directory_uri(); ?>/img/app-icon-rijschool-uniek.png">
 
-	<!-- Font -->
-	<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
 
     <!-- build:remove:expanded -->
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/production.min.css">
@@ -153,8 +154,10 @@
 		</div>
 		
 		<div class="Slide-one-text">
-			<p>Meld je nu aan en ontvang een</p>
-			<span>gratis proefles!</span>
+			<a href="/aanmelden">
+				<p>Meld je nu aan en ontvang een</p>
+				<span>gratis proefles!</span>
+			</a>
 		</div>
 
 		<div class="Slide-two-text">
@@ -166,8 +169,8 @@
 	
 <?php if(is_front_page() || is_page_template('template-landingspagina.php')) { ?>
 	<div class="Page-title">
-		<h2>Welkom bij Rijschool Leiden Uniek</h2>
-		<p>Welkom bij de rijschool van Leiden en omgeving al geruime tijd een toonaangevende rijschool in Leiden en omgeving!</p>
+		<h2>Welkom bij Rijschool Uniek Leiden</h2>
+		<p>Welkom bij Rijschool Uniek, al geruime tijd een toonaangevende rijschool in Leiden en omgeving!</p>
 	</div>
 	
 <?php } ?>

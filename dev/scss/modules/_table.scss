@@ -105,9 +105,10 @@
 	}
 }
 
-.pakket {
-	margin-left: 20px;
+.pakket.table-wrap {
+	background-color: $c-bluelight;
 }
+
 
 
 @media all and (max-width: 750px) {

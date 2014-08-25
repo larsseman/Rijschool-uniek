@@ -81,53 +81,53 @@ Template Name: temp auto rijles
 
 
 
-<div class="pakket">
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+<div class="pakket table-wrap">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<p>Pakket 1: 10 lessen inclusief Praktijk Examen</p>          
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="row-right u-gridCol3">
 			<p>€ 549,-</p>
 		</div>
 	</div>
 	
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<p>Pakket 2: 20 lessen inclusief Praktijk Examen</p>          
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="row-right u-gridCol3">
 			<p>€ 879,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<p>Pakket 3: 30 lessen inclusief Praktijk Examen</p>          
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="row-right u-gridCol3">
 			<p>€ 1220,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow">
-		<div class="u-gridCol8">
+	<div class="table-row u-gridRow">
+		<div class="row-left u-gridCol9">
 			<p>Pakket 4: 35 lessen inclusief Praktijk Examen</p>          
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="row-right u-gridCol3">
 			<p>€ 1380,-</p>
 		</div>
 	</div>
 
-	<div class="u-gridRow no">
-		<div class="u-gridCol8">
+	<div class="table-row u-gridRow no">
+		<div class="row-left u-gridCol9">
 			<p>Pakket 5: 40 lessen inclusief Praktijk Examen</p>          
 		</div>
 		
-		<div class="u-gridCol4">
+		<div class="row-right u-gridCol3">
 			<p>€ 1550,-</p>			
 		</div>
 	</div>
