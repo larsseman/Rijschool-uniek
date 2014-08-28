@@ -7,7 +7,7 @@
 
 .Navigation-menuToggle  {
   display: block;
-  @media all and (min-width: 1115px) {
+  @media all and (min-width: 1022px) {
     display: none;
   }
 }
@@ -41,7 +41,7 @@
 		height: 25px;
 		width: 25px;
 	}
-	@media all and (max-width: 1115px) {
+	@media all and (max-width: 1022px) {
 		display: block ;
 		position: absolute;
 		right: 0;
@@ -52,18 +52,18 @@
 #js-navCollapseTarget {
 	position: relative;
 	z-index: 999;
-	@media all and (max-width: 1115px) {
+	@media all and (max-width: 1022px) {
 		display: none;
 	}
 }
 
-@media all and (min-width: 1115px) {	
+@media all and (min-width: 1022px) {	
 	#js-navCollapse {
 		display: none;
 	}
 
 }
-@media all and (max-width: 1115px) {	
+@media all and (max-width: 1022px) {	
 	#js-navCollapse {
 		display: block;
 	}

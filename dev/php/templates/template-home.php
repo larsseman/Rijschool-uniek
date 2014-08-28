@@ -58,9 +58,18 @@ Template Name: Home
 									<div class="u-gridCol6 points-rows">
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
-											<span>Persoonlijk</span>
+											<span>Persoonlijke </span>  <span class="margin-left-span-home">aanpak</span>
+										</div>
+										<div class="pointRow">
+											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
+											<span>Hoog slagings-</span> <span class="margin-left-span-home">percentage</span>
 										</div>
 
+									</div>
+
+
+									
+									<div class="u-gridCol6 points-rows">
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
 											<span>Kwaliteit</span>
@@ -70,20 +79,11 @@ Template Name: Home
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
 											<span>Eerlijkheid</span>
 										</div>
-									</div>
-
-
-									
-									<div class="u-gridCol6 points-rows">
 										<div class="pointRow">
 											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
 											<span>Geduld</span>
 										</div>
 										
-										<div class="pointRow">
-											<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/svg/vinkje.svg">
-											<span>Hoog slagings-</span> <span class="margin-left-span-home">percentage</span>
-										</div>
 									</div>
 						<!-- --------------------------------------------------- -->										
 								</div><!-- u-gridRow -->

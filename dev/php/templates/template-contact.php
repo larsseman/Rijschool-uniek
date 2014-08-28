@@ -19,11 +19,14 @@ Template Name: Contactpage
 					<div class="u-gridRow">					
 						<div class="adress u-gridCol4 Coll-8">
 							<div class="adress-info">
-								<p>rijschool-uniek</p>
-								<p>Cornelis schuytlaan 186</p>
-								<p>2324VD Leiden</p>
-								<p>Email: info@rijschool-uniek.nl</p>
-								<p>Tel: 071 80 80 149</p>
+								<p><strong>Rijschool Uniek</strong></p>
+								<p>Cornelis schuytlaan 186<br/>
+								2324VD  Leiden</p>
+								<p>Email: info@rijschool-uniek.nl<br/>
+								Tel: 071-80 80 149<br/>
+								Mobiel: 06-480 38 209</p>
+								<p>Rekeningnummer: ING Bank NL48INGB0004931703</p>
+								<p>KVK nummer: 55331750</p>
 							</div>
 	
 						</div>					
